@@ -17,7 +17,7 @@ function useDeepCompareCallback<T extends (...args: any[]) => any>(
     checkDeps(dependencies, 'useDeepCompareCallback');
   }
 
-  React.useCallback(callback, useDeepCompareMemoize(dependencies));
+  return React.useCallback(callback, useDeepCompareMemoize(dependencies));
 }
 
 export default useDeepCompareCallback;
