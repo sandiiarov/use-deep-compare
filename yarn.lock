@@ -901,12 +901,12 @@
     "@types/node" "^10.12.18"
     rollup "^1.1.0"
 
-"@pika/plugin-standard-pkg@0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@pika/plugin-standard-pkg/-/plugin-standard-pkg-0.7.1.tgz#7a4da2dcc726b4408d6f6006dbef73ca84acbea7"
-  integrity sha512-QVcui5YxSSjCdXsDxeEtq3pmHKroYbc/yF98g5Pm1ZSRt/zg/1ZG+N5rLMnlkjpSgQrZ24quXaLSS4jO3Z3iig==
+"@pika/plugin-standard-pkg@0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@pika/plugin-standard-pkg/-/plugin-standard-pkg-0.8.1.tgz#07e21cd64ab42e73476cfd8a3aed2e35c5aa0aff"
+  integrity sha512-ZtIUtssKxHVv1wPrzwvCKPXhNeBuJ4s13WCKO1PL7zJwLq8lvxQsLvi47b4mmImrgXU88tIoqDbR1hUx8SgifQ==
   dependencies:
-    "@pika/types" "^0.7.1"
+    "@pika/types" "^0.8.1"
     "@types/node" "^10.12.18"
     standard-pkg "^0.5.0"
 
