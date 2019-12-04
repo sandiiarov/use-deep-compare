@@ -44,6 +44,6 @@
     "@types/react": "16.9.14",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "typescript": "3.7.2"
+    "typescript": "3.7.3"
   }
 }
