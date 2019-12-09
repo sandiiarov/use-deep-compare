@@ -41,7 +41,7 @@
     "@pika/plugin-build-types": "0.8.1",
     "@pika/plugin-build-web": "0.8.1",
     "@pika/plugin-standard-pkg": "0.8.1",
-    "@types/react": "16.9.15",
+    "@types/react": "16.9.16",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "typescript": "3.7.3"
