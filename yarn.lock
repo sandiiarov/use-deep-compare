@@ -896,15 +896,15 @@
     rollup "^1.1.0"
     rollup-plugin-babel "^4.3.0"
 
-"@pika/plugin-build-types@0.8.1":
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/@pika/plugin-build-types/-/plugin-build-types-0.8.1.tgz#bb9c709a374e8060c22b9853c382d4de3e371124"
-  integrity sha512-0QMRJh85TeinSgnpOkVBIy2RqhYx6CfKXELHEVl9glB1YMJnjlendzSSHUEBo4bXYkx0z2JGkv9IAtQyfwEdTQ==
+"@pika/plugin-build-types@0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@pika/plugin-build-types/-/plugin-build-types-0.9.1.tgz#48a2722faf3cd5affe0e4642609f3fea6b1264df"
+  integrity sha512-PQjAD7t8b23lmkGs+906tO1T1F8JuBCs99N7pYzNTqnFaaqYDraFcCyiiD+ViiGksDy3qeRgyH6v73YMPNyZmQ==
   dependencies:
-    "@pika/types" "^0.8.1"
+    "@pika/types" "^0.9.1"
     execa "^2.0.0"
     mkdirp "^0.5.1"
-    typescript "~3.4.0"
+    typescript "^3.7.0"
 
 "@pika/plugin-build-web@0.8.1":
   version "0.8.1"
@@ -938,6 +938,11 @@
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@pika/types/-/types-0.9.0.tgz#f08e32f36d0ff9412a4f9ae5750588ca7106c437"
   integrity sha512-xf0RPlnJeza9FGI4EOI1OfwDwntsh/irnVBFQ3Z4OC9PvmXeShwqZ7xhrO/KJ0Q7/bpJEYGAIsFsOQyTb2/yhQ==
+
+"@pika/types@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@pika/types/-/types-0.9.1.tgz#ced4ba7effea4af6727969e534cb034f0f86ea35"
+  integrity sha512-8avon8WZSJIipAPWRIoNcd/iKkevfR5ARhWEJMSKKCO8oGxTVasen6x8xEKLXbUqfM/cWFyFU/LZ3Bq07ed0Cg==
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
@@ -3903,15 +3908,10 @@ type-fest@^0.6.0:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.6.0.tgz#8d2a2370d3df886eb5c90ada1c5bf6188acf838b"
   integrity sha512-q+MB8nYR1KDLrgr4G5yemftpMC7/QLqVndBmEEdqzmNj5dcFOO4Oo8qlwZE3ULT3+Zim1F8Kq4cBnikNhlCMlg==
 
-typescript@3.7.5:
+typescript@3.7.5, typescript@^3.7.0:
   version "3.7.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
   integrity sha512-/P5lkRXkWHNAbcJIiHPfRoKqyd7bsyCma1hZNUGfn20qm64T6ZBlrzprymeu918H+mB/0rIg2gGK/BXkhhYgBw==
-
-typescript@~3.4.0:
-  version "3.4.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.5.tgz#2d2618d10bb566572b8d7aad5180d84257d70a99"
-  integrity sha512-YycBxUb49UUhdNMU5aJ7z5Ej2XGmaIBL0x34vZ82fn3hGvD+bgrMrVDpatgz2f7YxUMJxMkbWxJZeAvDxVe7Vw==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
