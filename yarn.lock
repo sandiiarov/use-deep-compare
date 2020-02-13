@@ -915,12 +915,12 @@
     "@types/node" "^10.12.18"
     rollup "^1.1.0"
 
-"@pika/plugin-standard-pkg@0.8.1":
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/@pika/plugin-standard-pkg/-/plugin-standard-pkg-0.8.1.tgz#07e21cd64ab42e73476cfd8a3aed2e35c5aa0aff"
-  integrity sha512-ZtIUtssKxHVv1wPrzwvCKPXhNeBuJ4s13WCKO1PL7zJwLq8lvxQsLvi47b4mmImrgXU88tIoqDbR1hUx8SgifQ==
+"@pika/plugin-standard-pkg@0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@pika/plugin-standard-pkg/-/plugin-standard-pkg-0.9.1.tgz#fc5ad3e6c39e72b07ed8ca9f0034c8a6673fc5ca"
+  integrity sha512-YB1NfELPIc8iXjTpWlswuh0zS36xrYeOBLOnX5kPaPfXFKaNylg5cIj+nhXNmM830ypcL8eGiEY/DOqZ9BBX6Q==
   dependencies:
-    "@pika/types" "^0.8.1"
+    "@pika/types" "^0.9.1"
     "@types/node" "^10.12.18"
     standard-pkg "^0.5.0"
 
@@ -938,6 +938,11 @@
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@pika/types/-/types-0.9.0.tgz#f08e32f36d0ff9412a4f9ae5750588ca7106c437"
   integrity sha512-xf0RPlnJeza9FGI4EOI1OfwDwntsh/irnVBFQ3Z4OC9PvmXeShwqZ7xhrO/KJ0Q7/bpJEYGAIsFsOQyTb2/yhQ==
+
+"@pika/types@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@pika/types/-/types-0.9.1.tgz#ced4ba7effea4af6727969e534cb034f0f86ea35"
+  integrity sha512-8avon8WZSJIipAPWRIoNcd/iKkevfR5ARhWEJMSKKCO8oGxTVasen6x8xEKLXbUqfM/cWFyFU/LZ3Bq07ed0Cg==
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
