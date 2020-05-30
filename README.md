@@ -4,6 +4,9 @@
 ![npm](https://img.shields.io/npm/v/use-deep-compare.svg)
 ![NpmLicense](https://img.shields.io/npm/l/use-deep-compare.svg)
 
+**Use Deep Compare** - React hooks, except using deep comparison on the inputs, not reference equality.
+Read about [Hooks](https://reactjs.org/docs/hooks-intro.html) feature.
+
 ## Installation
 
 > Note: React 16.8+ is required for Hooks.
@@ -25,8 +28,8 @@ yarn add use-deep-compare
 ### useDeepCompareEffect
 
 ```js
-import React from 'react';
-import { useDeepCompareEffect } from 'use-deep-compare';
+import React from "react";
+import { useDeepCompareEffect } from "use-deep-compare";
 
 function App({ object, array }) {
   useDeepCompareEffect(() => {
@@ -43,8 +46,8 @@ function App({ object, array }) {
 ### useDeepCompareCallback
 
 ```js
-import React from 'react';
-import { useDeepCompareCallback } from 'use-deep-compare';
+import React from "react";
+import { useDeepCompareCallback } from "use-deep-compare";
 
 function App({ object, array }) {
   const callback = useDeepCompareCallback(() => {
@@ -58,8 +61,8 @@ function App({ object, array }) {
 ### useDeepCompareMemo
 
 ```js
-import React from 'react';
-import { useDeepCompareMemo } from 'use-deep-compare';
+import React from "react";
+import { useDeepCompareMemo } from "use-deep-compare";
 
 function App({ object, array }) {
   const memoized = useDeepCompareMemo(() => {
