@@ -1,8 +1,14 @@
 {
   "name": "use-deep-compare",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
+  "description": "React hooks, except using deep comparison on the inputs, not reference equality",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandiiarov/use-deep-compare.git"
+  },
   "scripts": {
+    "build": "pika build",
     "tsc": "tsc --noEmit"
   },
   "babel": {
