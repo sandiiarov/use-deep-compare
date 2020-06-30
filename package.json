@@ -40,8 +40,8 @@
     "dequal": "1.0.0"
   },
   "devDependencies": {
-    "@babel/preset-react": "7.10.1",
-    "@babel/preset-typescript": "7.10.1",
+    "@babel/preset-react": "7.10.4",
+    "@babel/preset-typescript": "7.10.4",
     "@pika/pack": "0.5.0",
     "@pika/plugin-build-node": "0.9.2",
     "@pika/plugin-build-types": "0.9.2",
