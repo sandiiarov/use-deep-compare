@@ -37,7 +37,7 @@
     "react": ">=16.8.0"
   },
   "dependencies": {
-    "dequal": "1.0.0"
+    "dequal": "1.0.1"
   },
   "devDependencies": {
     "@babel/preset-react": "7.10.4",
