@@ -2,9 +2,13 @@ import React from 'react';
 import { checkDeps, useDeepCompareMemoize } from './useDeepCompareMemoize';
 
 /**
- * `useDeepCompareEffect` will return a memoized version of the callback that
+ * `useDeepCompareCallback` will return a memoized version of the callback that
  * only changes if one of the `deps` has changed.
  *
+ * @param callback A function that will be memoized by the hook
+ * @param dependencies If present, the callback will only recomputed when some
+ * value inside this array has changed
+ * 
  * Usage note: only use this if `deps` are objects or arrays that contain
  * objects. Otherwise you should just use React.useEffect.
  *
