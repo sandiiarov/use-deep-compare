@@ -73,6 +73,23 @@ function App({ object, array }) {
 }
 ```
 
+### react-hooks/exhaustive-deps eslint warnings
+
+To receive eslint warnings about missing array dependencies, just like for standard `useEffect`, `useCallback`, `useMemo` hooks - extend you eslint config as follows:
+
+```json
+{
+  "rules": {
+    // ...
+    "react-hooks/exhaustive-deps": ["warn", {
+      "additionalHooks": "(useDeepCompareEffect|useDeepCompareCallback|useDeepCompareMemo)"
+    }]
+  }
+}
+```
+
+
+
 ## Credits
 
 - Inspired by [use-deep-compare-effect](https://github.com/kentcdodds/use-deep-compare-effect).
