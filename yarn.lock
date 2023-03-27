@@ -1063,10 +1063,10 @@
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.0.tgz#4c48fed958d6dcf9487195a0ef6456d5f6e0163a"
   integrity sha512-eItQyV43bj4rR3JPV0Skpl1SncRCdziTEK9/v8VwXmV6d/qOUO8/EuWeHBbCZcsfSHfzI5UyMJLCSXtxxznyZg==
 
-"@types/react@16.14.34":
-  version "16.14.34"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.34.tgz#d129324ffda312044e1c47aab18696e4ed493282"
-  integrity sha512-b99nWeGGReLh6aKBppghVqp93dFJtgtDOzc8NXM6hewD8PQ2zZG5kBLgbx+VJr7Q7WBMjHxaIl3dwpwwPIUgyA==
+"@types/react@16.14.36":
+  version "16.14.36"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.36.tgz#05d6239d2e61f9e81e9e87596e6f69a99765f199"
+  integrity sha512-tVq2ZJ5ZYoBYdRX4v18Ki4VCMPmy4dXC3eYMmHkApa1+4wgnpd2tQS4Dy7q7qBf9jMXOICnZXEE6ttvYIgNIjg==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
