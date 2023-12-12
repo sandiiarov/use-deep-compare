@@ -1,5 +1,5 @@
 import React from "react";
-import deepEqual from "dequal";
+import { dequal } from "dequal";
 
 export function checkDeps(deps: React.DependencyList, name: string) {
   const reactHookName = `React.${name.replace(/DeepCompare/, "")}`;
@@ -14,7 +14,7 @@ export function checkDeps(deps: React.DependencyList, name: string) {
 export function useDeepCompareMemoize(value: React.DependencyList) {
   const ref = React.useRef<React.DependencyList>([]);
 
-  if (!deepEqual(value, ref.current)) {
+  if (!dequal(value, ref.current)) {
     ref.current = value;
   }
 
