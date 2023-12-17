@@ -1,6 +1,6 @@
 {
   "name": "use-deep-compare",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "MIT",
   "description": "React hooks, except using deep comparison on the inputs, not reference equality",
   "repository": {
@@ -47,9 +47,8 @@
     "@pika/plugin-build-types": "0.9.2",
     "@pika/plugin-build-web": "0.9.2",
     "@pika/plugin-standard-pkg": "0.9.2",
-    "@types/react": "16.14.54",
-    "react": "16.14.0",
-    "react-dom": "16.14.0",
-    "typescript": "3.9.10"
+    "@types/react": "18.2.45",
+    "react": "18.2.0",
+    "typescript": "5.3.3"
   }
 }
