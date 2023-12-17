@@ -1,8 +1,10 @@
 # Use Deep Compare
 
-![npm](https://img.shields.io/npm/dt/use-deep-compare.svg)
-![npm](https://img.shields.io/npm/v/use-deep-compare.svg)
-![NpmLicense](https://img.shields.io/npm/l/use-deep-compare.svg)
+<!-- prettier-ignore-start -->
+[![version][version-badge]][package]
+[![downloads][downloads-badge]][npmtrends]
+[![MIT License][license-badge]][license]
+<!-- prettier-ignore-end -->
 
 **Use Deep Compare** - React hooks, except using deep comparison on the inputs, not reference equality.
 Read about [Hooks](https://reactjs.org/docs/hooks-intro.html) feature.
@@ -88,8 +90,16 @@ To receive eslint warnings about missing array dependencies, just like for stand
 }
 ```
 
-
-
 ## Credits
 
 - Inspired by [use-deep-compare-effect](https://github.com/kentcdodds/use-deep-compare-effect).
+
+<!-- prettier-ignore-start -->
+[npm]: https://www.npmjs.com
+[version-badge]: https://img.shields.io/npm/v/use-deep-compare.svg
+[package]: https://www.npmjs.com/package/use-deep-compare
+[downloads-badge]: https://img.shields.io/npm/dt/use-deep-compare.svg
+[npmtrends]: http://www.npmtrends.com/use-deep-compare
+[license-badge]: https://img.shields.io/npm/l/use-deep-compare.svg
+[license]: https://github.com/sandiiarov/use-deep-compare/blob/master/LICENSE
+<!-- prettier-ignore-end -->
