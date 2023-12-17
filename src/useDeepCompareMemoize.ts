@@ -1,22 +1,14 @@
-import React from "react";
-import { dequal } from "dequal";
+import React from 'react';
+import { dequal } from 'dequal';
 
-export function checkDeps(deps: React.DependencyList, name: string) {
-  const reactHookName = `React.${name.replace(/DeepCompare/, "")}`;
+export function useDeepCompareMemoize(dependencies: React.DependencyList) {
+  const dependenciesRef = React.useRef<React.DependencyList>(dependencies);
+  const signalRef = React.useRef<number>(0);
 
-  if (!deps || deps.length === 0) {
-    throw new Error(
-      `${name} should not be used with no dependencies. Use ${reactHookName} instead.`
-    );
-  }
-}
-
-export function useDeepCompareMemoize(value: React.DependencyList) {
-  const ref = React.useRef<React.DependencyList>([]);
-
-  if (!dequal(value, ref.current)) {
-    ref.current = value;
+  if (!dequal(dependencies, dependenciesRef.current)) {
+    dependenciesRef.current = dependencies;
+    signalRef.current += 1;
   }
 
-  return ref.current;
+  return React.useMemo(() => dependenciesRef.current, [signalRef.current]);
 }
