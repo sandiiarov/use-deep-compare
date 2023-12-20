@@ -1,6 +1,6 @@
 {
   "name": "use-deep-compare",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "license": "MIT",
   "description": "React hooks, except using deep comparison on the inputs, not reference equality",
   "repository": {
