@@ -34,7 +34,7 @@
     ]
   },
   "peerDependencies": {
-    "react": ">=16.8.0"
+    "react": ">=18.0.0"
   },
   "dependencies": {
     "dequal": "2.0.3"

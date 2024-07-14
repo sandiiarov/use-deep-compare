@@ -8,6 +8,7 @@ import { useDeepCompareMemoize } from './useDeepCompareMemoize';
  * Warning: `useDeepCompareMemo` should not be used with dependencies that
  * are all primitive values. Use `React.useMemo` instead.
  *
+ * @see {@link https://react.dev/reference/react/useMemo}
  */
 export function useDeepCompareMemo<T>(
   factory: () => T,

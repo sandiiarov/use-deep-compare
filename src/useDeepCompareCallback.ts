@@ -8,6 +8,7 @@ import { useDeepCompareMemoize } from './useDeepCompareMemoize';
  * Warning: `useDeepCompareCallback` should not be used with dependencies that
  * are all primitive values. Use `React.useCallback` instead.
  *
+ * @see {@link https://react.dev/reference/react/useCallback}
  */
 export function useDeepCompareCallback<T extends Function>(
   callback: T,
