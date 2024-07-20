@@ -11,8 +11,6 @@ Read about [Hooks](https://reactjs.org/docs/hooks-intro.html) feature.
 
 ## Installation
 
-> Note: React 16.8+ is required for Hooks.
-
 ### With npm
 
 ```sh
@@ -23,6 +21,18 @@ npm i use-deep-compare
 
 ```sh
 yarn add use-deep-compare
+```
+
+### Or with pnpm
+
+```sh
+pnpm add use-deep-compare
+```
+
+### Or with bun
+
+```sh
+bun add use-deep-compare
 ```
 
 ## Usage
@@ -60,6 +70,21 @@ function App({ object, array }) {
 }
 ```
 
+### useDeepCompareLayoutEffect
+
+```js
+import React from "react";
+import { useDeepCompareLayoutEffect } from "use-deep-compare";
+
+function App({ object, array }) {
+  useDeepCompareLayoutEffect(() => {
+    // perform layout effects
+  }, [object, array]);
+
+  return <div>{/* render component */}</div>;
+}
+```
+
 ### useDeepCompareMemo
 
 ```js
@@ -75,16 +100,32 @@ function App({ object, array }) {
 }
 ```
 
+### useDeepCompareImperativeHandle
+
+```js
+import React from "react";
+import { useDeepCompareImperativeHandle } from "use-deep-compare";
+
+function App({ object, array }) {
+  const ref = React.useRef();
+  useDeepCompareImperativeHandle(ref, () => ({
+    // create imperative methods
+  }), [object, array]);
+
+  return <div ref={ref}>{/* render component */}</div>;
+}
+```
+
 ### react-hooks/exhaustive-deps eslint warnings
 
-To receive eslint warnings about missing array dependencies, just like for standard `useEffect`, `useCallback`, `useMemo` hooks - extend you eslint config as follows:
+To receive eslint warnings about missing array dependencies, just like for standard `useEffect`, `useCallback`, `useMemo`, ... hooks - extend you eslint config as follows:
 
 ```json
 {
   "rules": {
     // ...
     "react-hooks/exhaustive-deps": ["warn", {
-      "additionalHooks": "(useDeepCompareEffect|useDeepCompareCallback|useDeepCompareMemo)"
+      "additionalHooks": "(useDeepCompareEffect|useDeepCompareCallback|useDeepCompareMemo|useDeepCompareImperativeHandle|useDeepCompareLayoutEffect)"
     }]
   }
 }

@@ -7,6 +7,7 @@ import { useDeepCompareMemoize } from './useDeepCompareMemoize';
  * Warning: `useDeepCompareEffect` should not be used with dependencies that
  * are all primitive values. Use `React.useEffect` instead.
  *
+ * @see {@link https://react.dev/reference/react/useEffect}
  */
 export function useDeepCompareEffect(
   effect: React.EffectCallback,
