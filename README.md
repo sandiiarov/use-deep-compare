@@ -70,6 +70,21 @@ function App({ object, array }) {
 }
 ```
 
+### useDeepCompareLayoutEffect
+
+```js
+import React from "react";
+import { useDeepCompareLayoutEffect } from "use-deep-compare";
+
+function App({ object, array }) {
+  useDeepCompareLayoutEffect(() => {
+    // perform layout effects
+  }, [object, array]);
+
+  return <div>{/* render component */}</div>;
+}
+```
+
 ### useDeepCompareMemo
 
 ```js
@@ -101,36 +116,6 @@ function App({ object, array }) {
 }
 ```
 
-### useDeepCompareInsertionEffect
-
-```js
-import React from "react";
-import { useDeepCompareInsertionEffect } from "use-deep-compare";
-
-function App({ object, array }) {
-  useDeepCompareInsertionEffect(() => {
-    // perform side effects
-  }, [object, array]);
-
-  return <div>{/* render component */}</div>;
-}
-```
-
-### useDeepCompareLayoutEffect
-
-```js
-import React from "react";
-import { useDeepCompareLayoutEffect } from "use-deep-compare";
-
-function App({ object, array }) {
-  useDeepCompareLayoutEffect(() => {
-    // perform layout effects
-  }, [object, array]);
-
-  return <div>{/* render component */}</div>;
-}
-```
-
 ### react-hooks/exhaustive-deps eslint warnings
 
 To receive eslint warnings about missing array dependencies, just like for standard `useEffect`, `useCallback`, `useMemo`, ... hooks - extend you eslint config as follows:
@@ -140,7 +125,7 @@ To receive eslint warnings about missing array dependencies, just like for stand
   "rules": {
     // ...
     "react-hooks/exhaustive-deps": ["warn", {
-      "additionalHooks": "(useDeepCompareEffect|useDeepCompareCallback|useDeepCompareMemo|useDeepCompareImperativeHandle|useDeepCompareInsertionEffect|useDeepCompareLayoutEffect)"
+      "additionalHooks": "(useDeepCompareEffect|useDeepCompareCallback|useDeepCompareMemo|useDeepCompareImperativeHandle|useDeepCompareLayoutEffect)"
     }]
   }
 }
