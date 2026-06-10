@@ -3,9 +3,13 @@
   "version": "1.3.0",
   "license": "MIT",
   "description": "React hooks, except using deep comparison on the inputs, not reference equality",
+  "homepage": "https://github.com/sandiiarov/use-deep-compare",
   "repository": {
     "type": "git",
     "url": "https://github.com/sandiiarov/use-deep-compare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sandiiarov/use-deep-compare/issues"
   },
   "scripts": {
     "build": "pika build",
